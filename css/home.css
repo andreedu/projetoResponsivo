@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Krona+One&family=Montserrat&family=Great+Vibes:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria:#7b1113;
+    --cor-secundaria:#FBF3E4;
+    --cor-terciaria:#105652;
+    --cor-hover:#19B8B0;
+    --font-primaria:"Krona One";
+    --font-secundaria:"Montserrat";
+    --font-h1:"Great Vibes";
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--cor-primaria);
+}
+
+header nav{
+    background-color: var(--cor-terciaria);
+    display: flex;
+    gap: 80px;
+    padding: 24px 0 0 24px;
+    flex-wrap: wrap;
+
+}
+
+header nav a{
+    color:var(--cor-secundaria);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--font-secundaria);
+}
+
+header h1{
+    color:var(--cor-secundaria);
+    padding: 2% 0 0 0;
+    text-align: center;
+    font-family: var(--font-h1);
+    font-weight: 200;
+
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main section{
+    width: 615px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    gap:40px;
+}
+main section h3{
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+}
+
+main section h3 strong{
+    color:var(--cor-terciaria)
+}
+
+main section p{
+    
+    font-family: var(--font-secundaria);
+    font-size: 18px;
+    color: var(--cor-secundaria);
+}
+
+main section h4{
+    color: var(--cor-secundaria);
+    font-family: var(--font-primaria);
+    font-weight: 400;
+}
+
+main section ul{
+    display: flex;
+    gap: 12px;
+}
+
+main section ul li {
+    list-style-type: none;
+}
+
+main section ul li a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-style:none;
+    border-radius: 8px;
+    font-family: var(--font-secundaria);
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    color:var(--cor-secundaria)
+}
+
+main section ul li a:hover{
+    background-color:var(--cor-hover);
+}
+
+footer {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    padding: 24px 0 0 0;
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,0 +1,20 @@
+
+
+
+:root{
+    --cor-principal: #ffffff;
+    --cor-secundaria: #537188;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: var(--cor-secundaria);
+}

@@ -1,0 +1,130 @@
+:root{
+    --cor-primaria:#537188;
+    --cor-background: #CBB279;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.caixa{
+    background : var(--cor-background);
+    width: 1000px;
+    height: 400px;
+    box-shadow: 4px 4px 24px -4px rgba(0,0,0,0.5);
+    /*https://cssgenerator.org/box-shadow-css-generator.html*/
+    border-radius: 18px;
+    
+}
+
+header h2{
+    padding-left: 10px;
+    color: var(--cor-primaria);
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 48px;
+
+}
+
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+
+main img{
+    width: 30%;
+    
+}
+
+
+
+main form{
+    width: 350px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+main form label{
+    color:var(--cor-primaria);
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+
+main form input{
+    box-sizing: border-box;
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 8px 24px;
+    border: 1px solid;
+    border-radius: 45px;
+    border-color: var(--cor-primaria);
+    text-align: left;
+    width: 100%;
+}
+
+a {
+    color:var(--cor-primaria);
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.div_botao{
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 24px;
+    text-align: center;
+    
+}
+
+.botao{
+    background-color: var(--cor-primaria);
+    padding: 16px 32px;
+    color:#FFFF;
+    font-size: 1.25rem;
+    border: none;
+}
+
+.botao:hover{
+    background-color: #B87900;
+    
+}
+
+
+@media (max-width:550px) { 
+    
+    .caixa{
+        width: auto;
+        height: auto;
+    }
+    main {flex-wrap: wrap;}
+
+    main img{
+        width:50%;
+
+    }
+    
+}

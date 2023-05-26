@@ -1,0 +1,90 @@
+
+
+
+0 - Margin e padding devem iniciar zeradas.
+
+
+1- Definição do body 
+
+altura mínima 100vh
+display flex 
+justificar o conteúdo no centro 
+alinhar items no centro
+
+1.1 classe caixa
+cor de fundo definido na variável cor-background
+largura 1000px
+altura 400px
+sombra da caixa 4px 4px 24px rgba(0,0,0,0.5)
+/*https://cssgenerator.org/box-shadow-css-generator.html*/
+arredondamento dos cantos 18px
+
+
+1.1.1- Definindo no header
+
+cabeçalho 2
+preenchimento à esquerda 10px
+cor da fonte variável cor primaria
+família da fonte sans-serif
+tamanho da fonte 32px
+altura da linha do elemento 48px
+
+1.1.2 - Principal
+
+display flex
+cor de fundo secundaria
+wrap para ajuste dos elementos
+alinhamento dos itens no centro
+Espaçamento entre o elementos 40px
+
+1.1.2.1 - Figura
+margens 16px 40px
+
+1.1.2.2 - Formulário
+display flex
+lagura 300px
+largura máxima 100%
+orientação dos itens, direção colunar
+
+1.1.2.2.1 - label
+cor da fonte variável cor primaria
+largura da fonte 700
+tamanho da fonte 16px
+margem esquerda 16px
+margem da base 8px
+
+1.1.2.2.2 - input
+
+largura do elemento 100%
+tamanho da fonte 16px
+altura da linha do elemento 24px
+preenchimento 8px 24px
+borda 1px solido
+arredondamento dos cantos 45px
+cor da borda variável cor primaria
+alinhamento do texto esquerda
+
+1.1.2.2.3 - ancora
+cor da fonte variável cor primaria
+largura da fonte 700
+tamanho da fonte 12px
+margem esquerda 16px
+margem da base 8px
+sem linha decorativa do link
+
+Classe div_botao
+largura 352px
+espacamento no topo 48px
+alinhamento do texto no botão centro 
+
+
+
+Classe botao
+cor de fundo variável da cor primaria
+espacamento 16px 32px
+cor da fonte cor branca
+tamanho da fonte 20px
+borda sem borda
+
+Classe botao:hover
+cor de fundo #B87900
